@@ -16,3 +16,4 @@ This theme will come in handy in Step 3. You define the columns yourself.
 * Since most of the Wordpress theme I created have a horizontal navigation
 bar, I have included the CSS for #access in style.css
 
+* Also added the image CSS (align right, left, etc) by default.
