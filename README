@@ -1,3 +1,18 @@
 A barebones / boilerplate / skeletal theme for Wordpress. 
 
 Uses http://getskeleton.com (Version 1.1)
+
+Note that you will need to customize this theme. This theme is "minimized".
+
+My workflow:
+
+1) Design a layout (Photoshop, etc.). You can use the template found in /templates 
+   or download it from http://getskeleton.com/#download
+2) Convert the layout into HTML
+3) Convert the HTML file into a Wordpress theme
+
+This theme will come in handy in Step 3. You define the columns yourself.
+
+* Since most of the Wordpress theme I created have a horizontal navigation
+bar, I have included the CSS for #access in style.css
+
