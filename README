@@ -11,9 +11,10 @@ My workflow:
 2) Convert the layout into HTML
 3) Convert the HTML file into a Wordpress theme
 
-This theme will come in handy in Step 3. You define the columns yourself.
+This theme will come in handy in Step 3. For example, you define the grid layout, 
+columns, text colors, fonts, spacing, etc. yourself.
 
 * Since most of the Wordpress theme I created have a horizontal navigation
-bar, I have included the CSS for #access in style.css
-
+  bar, I have included the CSS for #access in style.css
 * Also added the image CSS (align right, left, etc) by default.
+* This also contains the default CSS for Skeleton.
