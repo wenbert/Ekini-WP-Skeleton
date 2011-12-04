@@ -1,0 +1,106 @@
+/*
+Theme Name: Ekini WP Skeleton
+Theme URI: http://blog.ekini.net
+Description: A responsive layout for Wordpress. Uses http://getskeleton.com/ (Skeleton Version 1.1)
+Author: Wenbert Del Rosario
+Version: 1.0
+License: MIT
+License URI: http://www.opensource.org/licenses/mit-license.php
+Tags: responsive, responsive layout, css3, mediaqueries, skeleton
+*/
+
+
+#access {
+    background: #000;
+    display: block;
+    float: left;
+}
+
+#access .menu-header,
+div.menu {
+    
+}
+
+#access .menu-header ul,
+div.menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+#access .menu-header li,
+div.menu li {
+    float: left;
+    position: relative;
+    margin: 0px;
+}
+
+#access a {
+    color: #aaa;
+    display: block;
+    /*line-height: 38px;*/
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#access ul ul {
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    float: left;
+    width: 180px;
+    z-index: 99999;
+}
+
+#access ul ul li {
+    min-width: 180px;
+}
+
+#access ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+#access ul ul a {
+    background: #333;
+    line-height: 1em;
+    padding: 10px;
+    width: 160px;
+    height: auto;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a {
+    background: #333;
+    color: #fff;
+}
+
+#access ul li:hover > ul {
+    display: block;
+}
+
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+    color: #fff;
+}
+
+* html #access ul li.current_page_item a,
+* html #access ul li.current-menu-ancestor a,
+* html #access ul li.current-menu-item a,
+* html #access ul li.current-menu-parent a,
+* html #access ul li a:hover {
+    color: #fff;
+}
+
+.front{
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
