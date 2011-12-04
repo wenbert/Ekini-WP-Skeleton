@@ -1,5 +1,12 @@
 <?php
 
+// This theme uses post thumbnails
+add_theme_support( 'post-thumbnails' );
+
+// Add default posts and comments RSS feed links to head
+add_theme_support( 'automatic-feed-links' );
+
+
 if ( ! function_exists( 'wpbp_posted_on' ) ) :
 /**
 * Prints HTML with meta information for the current post-date/time and author.
