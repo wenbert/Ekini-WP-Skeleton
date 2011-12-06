@@ -6,6 +6,25 @@ add_theme_support( 'post-thumbnails' );
 // Add default posts and comments RSS feed links to head
 add_theme_support( 'automatic-feed-links' );
 
+register_nav_menus(array(
+    'primary' => 'Primary Navigation'
+));
+
+
+function ekini_widgets_init() {
+	// Area 1, located at the top of the sidebar.
+    register_sidebar( array(
+        'name' => 'Primary Widget Area',
+        'id' => 'primary-widget-area',
+        'description' => __( 'The primary widget area', 'wpbp' ),
+        'before_widget' => '<ul id="%1$s" class="widget-container %2$s">',
+        'after_widget' => '</ul>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ));
+}
+/** Register sidebars by running wpbp_widgets_init() on the widgets_init hook. */
+add_action( 'widgets_init', 'ekini_widgets_init' );
 
 if ( ! function_exists( 'wpbp_posted_on' ) ) :
 /**
